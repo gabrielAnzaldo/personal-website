@@ -13,6 +13,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Gabriel Anzaldo Personal Website',
+      template: './src/index.html',
     }),
   ],
   output: {
