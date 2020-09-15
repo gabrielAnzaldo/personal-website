@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Gabriel Anzaldo personal website.",
+  "private": true,
+  "dependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "lodash": "^4.17.20",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielAnzaldo/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielAnzaldo/personal-website/issues"
+  },
+  "homepage": "https://github.com/gabrielAnzaldo/personal-website#readme"
+}
