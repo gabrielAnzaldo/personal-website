@@ -1,5 +1,7 @@
 @media(min-width: 768px) {
-  .paragraph {
-    color: green;
+  /* Footer */
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
