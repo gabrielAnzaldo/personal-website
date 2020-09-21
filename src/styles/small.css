@@ -92,34 +92,24 @@ main {
 main div.post-card {
   margin-bottom: 3rem;
 }
-main div.post-image-one {
+main div.post-background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+main div.post-background.post-image-one {
   background: url('../images/post-one.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
 }
 
-main div.post-image-two {
+main div.post-background.post-image-two {
   background: url('../images/post-two.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
 }
 
-main div.post-image-three {
+main div.post-background.post-image-three {
   background: url('../images/post-three.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
 }
 
-main div.post-image-four {
+main div.post-background.post-image-four {
   background: url('../images/post-four.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 200px;
 }
