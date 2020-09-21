@@ -4,6 +4,10 @@ html, body {
   margin: 0;
 }
 
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -15,6 +19,7 @@ html, body {
 }
 
 .avatar {
+  display: none;
   color: green;
   background: url('../images/profile.jpeg');
   background-repeat: no-repeat;
@@ -26,20 +31,28 @@ html, body {
 /* Header */
 header {
   display: flex;
-  padding: 0.5rem;
+  padding: 1rem;
   justify-content: space-between;
-  background-color: #1897d9;
+  background-color: #FFF;
   align-items: center;
+}
+header span {
+  font-size: 20px;
+  color: #40C3F7;
 }
 header ul {
   display: flex;
   list-style: none;
 }
 header ul li {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 header ul li:last-child {
   margin-right: 0;
+}
+header .info {
+  display: flex;
+  align-items: center;
 }
 
 /* Footer */
@@ -48,10 +61,10 @@ footer {
   flex-direction: column;
   align-items: center;
   padding: 0.5rem;
-  background-color: #112437;
+  background-color: #40C3F7;
   color: #fff;
 }
-footer ul {
+footer ul.social-links {
   list-style: none;
   display: flex;
   padding: 0;
@@ -62,5 +75,11 @@ footer ul li {
 footer ul li:last-child {
   margin-right: 0;
 }
+footer .copyright, footer .social-links {
+  margin-top: 0;
+}
 
 /* Main */
+main {
+  background-color: #E3F8FF;
+}

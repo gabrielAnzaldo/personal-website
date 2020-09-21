@@ -1,7 +1,15 @@
 @media(min-width: 768px) {
+  .avatar {
+    display: block;
+    margin-right: 0.5rem;
+  }
   /* Footer */
   footer {
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  footer .copyright, footer .social-links {
+    margin-top: 1rem;
   }
 }
