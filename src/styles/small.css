@@ -78,8 +78,12 @@ footer ul li:last-child {
 footer .copyright, footer .social-links {
   margin-top: 0;
 }
+footer i.fas.fa-heart {
+  color: #CF1124;
+}
 
 /* Main */
 main {
   background-color: #E3F8FF;
+  padding: 1rem 2rem;
 }
