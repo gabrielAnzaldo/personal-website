@@ -89,6 +89,10 @@ main {
 }
 
 /* Main - posts */
+main .grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 main div.post-card {
   margin-bottom: 3rem;
 }

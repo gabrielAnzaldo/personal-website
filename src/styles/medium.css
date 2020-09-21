@@ -12,4 +12,10 @@
   footer .copyright, footer .social-links {
     margin-top: 1rem;
   }
+
+  /* Main - posts */
+  main .grid-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem 1rem;
+  }
 }
