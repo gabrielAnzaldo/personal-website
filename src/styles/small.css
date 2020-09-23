@@ -127,3 +127,21 @@ main div.post-background.post-image-three {
 main div.post-background.post-image-four {
   background: url('../images/post-four.png');
 }
+
+/* Post page */
+
+main .grid-wrapper-post h1 {
+  text-align: center;
+}
+
+main .grid-wrapper-post p b {
+  font-weight: bold;
+  color: #003E6B;
+  font-style: italic;
+}
+
+main .grid-wrapper-post p code {
+  font-weight: bold;
+  color: #003E6B;
+  font-size: 18px;
+}
