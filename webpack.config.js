@@ -15,6 +15,11 @@ module.exports = {
       title: 'Gabriel Anzaldo Personal Website',
       template: './src/index.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'post.html',
+      title: 'First Post',
+      template: './src/post.html',
+    }),
   ],
   output: {
     filename: 'main.js',
