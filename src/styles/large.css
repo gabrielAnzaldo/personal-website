@@ -6,4 +6,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem 1rem;
   }
+  /* Post detail */
+  main .post-main-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 250px;
+    grid-gap: 2rem;
+  }
+
+  main div.post-background.post-image-one.post-image-detail {
+    background: url('../images/post-one.png');
+    height: 500px;
+  }
 }

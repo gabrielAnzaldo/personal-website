@@ -20,7 +20,6 @@ body {
 
 .avatar {
   display: none;
-  color: green;
   background: url('../images/profile.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,4 +143,24 @@ main .grid-wrapper-post p code {
   font-weight: bold;
   color: #003E6B;
   font-size: 18px;
+}
+
+/* Aside */
+aside {
+  margin-top: 2rem;
+}
+aside .author-avatar {
+  background: url('../images/microsoft.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+aside p, aside blockquote {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 16px;
 }

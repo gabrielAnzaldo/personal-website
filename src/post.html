@@ -14,9 +14,9 @@
       <a href="/">
         <div class="avatar"></div>
       </a>
-        <span>
-          Gabriel <b>Anzaldo</b>
-        </span>
+      <span>
+        Gabriel <b>Anzaldo</b>
+      </span>
     </div>
     <ul>
       <li>
@@ -35,22 +35,42 @@
     </ul>
   </header>
   <main class="content" role="main">
-    <div class="grid-wrapper-post">
-      <h1>How to create a simple slider</h1>
-      <div class="post-card-content">
-        <div class="post-background post-image-one">
+    <div class="post-main-wrapper">
+      <div class="grid-wrapper-post">
+        <h1>How to create a simple slider</h1>
+        <div class="post-card-content">
+          <div class="post-background post-image-one post-image-detail">
+          </div>
+          <h2>How to build a simple slider</h2>
+          <h3>Markup</h3>
+          <p>
+            Markup for slider is very simple. We are going to create div with id <b>slider</b> as main container, and
+            then div with class <b>slides-container</b> which is going to hold all the slides. We then just need another
+            div that’s going to hold arrows and another that will act as pager.
+          </p>
+          <h3>Styles</h3>
+          <p>
+            It will be all very messed up. Another important thing here is <code>postion: relative</code> because we
+            need to set slides to <code>position: absolute</code>. That way they are one beneath another and we will
+            have smooth fade in-out transition.
+            WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
+          </p>
         </div>
-        <h2>How to build a simple slider</h2>
-        <h3>Markup</h3>
-        <p>
-          Markup for slider is very simple. We are going to create div with id <b>slider</b> as main container, and then div with class <b>slides-container</b> which is going to hold all the slides. We then just need another div that’s going to hold arrows and another that will act as pager.
-        </p>
-        <h3>Styles</h3>
-        <p>
-          It will be all very messed up. Another important thing here is <code>postion: relative</code> because we need to set slides to <code>position: absolute</code>. That way they are one beneath another and we will have smooth fade in-out transition.
-          WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
-        </p>
       </div>
+      <aside>
+        <h4>about the blog author:</h3>
+          <div class="author-avatar"></div>
+          <p>Bill gates
+        </h4>
+        <p>Microsoft director</p>
+        <p>Bill is a tech geek learn more about him, and all the amzing stuff he has build during the pandemic.</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+          <q>
+            WWF works in 100 countries and is supported by more than one million members in the United States and close
+            to five million globally.
+          </q>
+        </blockquote>
+      </aside>
     </div>
   </main>
   <footer class="footer">

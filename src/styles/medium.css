@@ -18,4 +18,16 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem 1rem;
   }
+
+  /* Post detail */
+  main .post-main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-gap: 2rem;
+  }
+
+  main div.post-background.post-image-one.post-image-detail {
+    background: url('../images/post-one.png');
+    height: 300px;
+  }
 }
