@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   margin: 0;
 }
+hr {
+  border-color: #102A43;
+}
 
 body {
   font-family: 'Rubik', sans-serif;

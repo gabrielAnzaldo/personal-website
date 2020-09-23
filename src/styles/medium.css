@@ -3,6 +3,9 @@
     display: block;
     margin-right: 0.5rem;
   }
+  hr {
+    display: none;
+  }
   /* Footer */
   footer {
     flex-direction: row;
