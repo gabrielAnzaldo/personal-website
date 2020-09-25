@@ -6,7 +6,12 @@ html, body {
 hr {
   border-color: #102A43;
 }
-
+button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
 figure figcaption {
   font-style: italic;
   font-size: 12px;
